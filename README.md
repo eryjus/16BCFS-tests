@@ -19,13 +19,6 @@ See [LICENSE.md](LICENSE.md).
 
 ---
 
-## Build System
-
-I use `tup` as my primary build system.  I usually will wrap `tup` in `make` commands.  You can find `tup` [here](https://gittup.org/tup/).  I simply find `tup` to more reliable detect changed sources with less work.
-
-
----
-
 ## EEPROM Programmer
 
 I do not have a commercial EEPROM programmer.  I use the TommyPROM programmer.  You can find all the relevant information on TommyPROM [here](https://tomnisbet.github.io/TommyPROM/).  In Linux, I use `minicom` as the interface.  Hint: use `sudo minicom -s` to set up the defaults.
